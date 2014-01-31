@@ -7,21 +7,6 @@ author: Pedro Pimentel
 author_login: admin
 author_email: zukunft@gmail.com
 author_url: http://
-excerpt: "<p style=\"text-align: center;\"><img class=\"alignnone\" title=\"Designing
-  for the social web\" src=\"http://farm4.static.flickr.com/3588/3394810309_19db8a7dbb.jpg\"
-  alt=\"\" width=\"500\" height=\"333\" /></p>\r\n\r\nWhat prevents an application,
-  like  <a title=\"Twitter\" href=\"http://www.twitter.com\">Twitter</a>, Â of acquiring
-  more and more users besides the geek users? Even within my circle of friends and
-  acquaintances that work/study with IT, when I talk about I' m a Twitter user, I
-  need to repeat uncountable times what Twitter is about Â and I usually explain to
-  them according to what twitter advertise as their goal (Not a micro blogging tool,
-  What are you doing?). In 90% of the cases, they say they heard about it but don't
-  know whatÂ´s its purpose, in other words, they donÂ´t know how they could use twitter
-  for their benefit.Â \"<em>Why would I tell Â´followersÂ´ what I am doing </em>?Â¨
-  is the most asked question after Â my explanation.Â Â It means TwitterÂ´s initial
-  goal failed to instigate the user to create a new need, but why ?\r\n\r\n"
-wordpress_id: 172
-wordpress_url: http://www.pedropimentel.com/?p=172
 date: 2009-06-16 16:01:22.000000000 +08:00
 categories:
 - hints
@@ -34,48 +19,7 @@ tags:
 - social applications
 - user
 - user focused applications
-comments:
-- id: 111
-  author: Robson MendonÃ§a
-  author_email: robsonmwoc@gmail.com
-  author_url: http://www.myweboncreate.com
-  date: '2009-06-16 17:46:45 +0800'
-  date_gmt: '2009-06-16 20:46:45 +0800'
-  content: "Oh Yeah! Great article, and made me think about my own solutions developed
-    with a geek head.\r\nI believe, that most of programmers needs to show each other
-    how much evil he is. But for some reason someone ends up getting different thought
-    about yourself and build something very interesting, even that not directed to
-    geek people.\r\nI can realize this like a Progressive Metal musician, that put
-    the technique up to the result or objective of a project.\r\nFortunately, there
-    are good programmers that aims develop real solutions to real world, and these
-    people normally is on the top.\r\nBye Zukun!!"
-- id: 112
-  author: Diego Plentz
-  author_email: diego@plentz.org
-  author_url: http://plentz.org
-  date: '2009-06-17 02:23:46 +0800'
-  date_gmt: '2009-06-17 05:23:46 +0800'
-  content: Great post :)
-- id: 129
-  author: Pedro Fernandes Steimbruch
-  author_email: pedrofsteimbruch@gmail.com
-  author_url: ''
-  date: '2009-09-15 19:50:20 +0800'
-  date_gmt: '2009-09-15 22:50:20 +0800'
-  content: "Hm. Great artical. It try to explain the question that can be the services
-    marketing Santo Graal (hehe ;). But I think it was good in its porpouse, very
-    good. Actually, it have to be a private article... now lots of people thinking
-    about it, including me ;) haha. Just kiding.\r\n\r\nNice post."
-- id: 130
-  author: Pedro Fernandes Steimbruch
-  author_email: pedrofsteimbruch@gmail.com
-  author_url: ''
-  date: '2009-09-15 19:53:52 +0800'
-  date_gmt: '2009-09-15 22:53:52 +0800'
-  content: Oh.. forgot, it was good in a thinking broadly way... otherwise... lol
 ---
-<p style="text-align: center;"><img class="alignnone" title="Designing for the social web" src="http://farm4.static.flickr.com/3588/3394810309_19db8a7dbb.jpg" alt="" width="500" height="333" /></p>
-
 What prevents an application, like  <a title="Twitter" href="http://www.twitter.com">Twitter</a>, Â of acquiring more and more users besides the geek users? Even within my circle of friends and acquaintances that work/study with IT, when I talk about I' m a Twitter user, I need to repeat uncountable times what Twitter is about Â and I usually explain to them according to what twitter advertise as their goal (Not a micro blogging tool, What are you doing?). In 90% of the cases, they say they heard about it but don't know whatÂ´s its purpose, in other words, they donÂ´t know how they could use twitter for their benefit.Â "<em>Why would I tell Â´followersÂ´ what I am doing </em>?Â¨ is the most asked question after Â my explanation.Â Â It means TwitterÂ´s initial goal failed to instigate the user to create a new need, but why ?
 
 <a id="more"></a><a id="more-172"></a>

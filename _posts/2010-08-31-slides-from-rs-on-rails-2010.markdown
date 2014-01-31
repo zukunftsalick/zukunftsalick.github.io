@@ -22,8 +22,6 @@ tags:
 - conference
 comments: []
 ---
-<p style="text-align: center;"><img class="aligncenter" title="Rs on Rails 2010" src="http://www.rsrails.com.br/images/rsrails_2010.png?1278445889" alt="Rs on Rails 2010" width="450" height="150" /></p>
-
 On August, 21st of 2010, at RS on Rails 2010, I and <a href="http://www.myweboncreate.com/">Robson MendonÃ§a</a> gave a talk about a game development framework for Ruby called <a href="http://ippa.se/chingu">Chingu</a>. Our main goal with this talk was to  show that you can have fun with pure Ruby without riding Rails. I believe we successfully achieved that! :D
 
 For those who might have interest, below are our slides (Portuguese only).Â  Our game's source code you can find at <a href="http://github.com/zukunftsalick/ruby-raid">zukunftsalick's github</a>.
