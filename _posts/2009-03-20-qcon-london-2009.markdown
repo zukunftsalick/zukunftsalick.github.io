@@ -1,0 +1,52 @@
+---
+layout: post
+status: publish
+published: true
+title: Qcon London 2009
+author: Pedro Pimentel
+author_login: admin
+author_email: zukunft@gmail.com
+author_url: http://
+wordpress_id: 108
+wordpress_url: http://www.pedropimentel.com/?p=108
+date: 2009-03-20 10:36:21.000000000 +08:00
+categories:
+- personal
+- events
+tags:
+- qcon
+- software
+- agile
+comments:
+- id: 97
+  author: Blogposts about QCon London 2009 | JAOO Community Blog
+  author_email: ''
+  author_url: http://blog.jaoo.dk/2009/03/30/blogposts-about-qcon-london-2009/
+  date: '2009-03-30 08:47:13 +0800'
+  date_gmt: '2009-03-30 11:47:13 +0800'
+  content: '[...] Pedro Pimentel http://www.pedropimentel.com/2009/03/20/qcon-london-2009/
+    [...]'
+---
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-118" title="qcon_logo_london_2009" src="http://www.pedropimentel.com/wp-content/uploads/2009/03/qcon_logo_london_2009.jpg" alt="qcon_logo_london_2009" width="395" height="230" /></p>
+
+After 4 months of no activity here (in my <a title="http://www.twitter.com/zukunftsalick" href="http://www.twitter.com/zukunftsalick">twitter</a> I post more frequently), i'm posting some notes from Qcon London I attended this year.
+
+Curiously, Qcon London began with a keynote from the scientist<strong><a title="C.A.R. Hoare" href="http://en.wikipedia.org/wiki/C._A._R._Hoare"> Tony Hoare</a></strong> (inventor of quicksort) that didn't make me sleep. Hoare talked about the division between the academic practices and the commercial world doing many comparisons and little jokes regarding the "I'm a scientist, I'm a engineer" world.
+
+<strong><a title="Keith Braithwaite" href="http://peripateticaxiom.blogspot.com/">Keith Braithwaite</a></strong> started his  talk "Adopting agile is harder than you'd like but easier than you'd think" by comparing costs of a developer and hardware costs. Keith showed some statistics of how people improve productivity by using bigger monitors and how these hardware costs are related to the developer costs. According to him, if your company don't gives you a big monitor,  they are loosing money due to loss in productivity.  Other comments he did were about pair programming where he defends its use in an all the time basis, saying that "choosing to work alone, is to choose have less quality in your code".  In a rant about Rockstars developers, Keith said that them should not be part of a team but hired as consultants or contractors instead. Finishing his talk, Keith presented some points to consider in order to know if agile methodology is working in your team which are: estimates converge, quality remains high over long periods and the team by itself find new approaches to work better.
+
+"Web-oriented architecture"  and his other talk "Transforming software architecture with Web as platform" by <strong><a title="Dion Hinchcliffe" href="http://web2.socialcomputingmagazine.com/">Dion Hinchcliffe</a></strong> predicts the obvious where most the applications will be web-based and web-oriented and still following the "always beta" philosophy because "the best products are never finished". According to Dion, the web oriented architecture is strongly based on REST plus the use of mashups, integration and widgets. Dion said we are missing portability in our applications, so he believes that by using <a title="OPML" href="http://en.wikipedia.org/wiki/OPML">OPML</a> to exchange data, we'll be in the right way to the web-oriented architecture.
+
+<strong>Martin Fowler</strong>, who doesn't need presentations, in "3 years of real word ruby" gave us an overall idea of how ruby was introduced in the projects inside ThoughtWorks. Martin talked about how people were dealing with ruby, how the productivity was affected and many other considerations of using ruby for real world projects. According to Martin, there are 41 projects made with ruby. One thing Martin said, was how people felt when they need to go back to work with languages other than ruby. Not surprisingly (for me) most of the people didn't want to go back to work with other languages, mostly because the easy of use of ruby. About ruby performance in the projects, Martin said "Ruby is slow, but that's not the bottleneck in most of applications. The biggest cause for slowness nowadays is accessing database" . Regarding the tools to develop with ruby, once again, wasn't any surprise for me. Nobody in the team feel the need for a IDE like Eclipse. All in all, nothing new for me in his talk, but it's always good to hear from guys like Martin.
+
+"Agility: possibilities at a personal level" by <strong><a title="Linda Rising" href="http://www.lindarising.org/">Linda Rising</a></strong> was a really weird talk. During 95% of its time, she talked about Caffeine and the way it affects a person's health. It was for sure a nice talk and Linda definitely knows how to keep people's attention. The message that she tried to present was that being agile can be (bad) the same way  "caffeine" is for our health because being agile makes you feel energized, stimulated, addicted to work and makes work be a fun thing but our body and mind are not ready for such "energy".
+
+<strong><a title="Joseph Pelrine" href="http://www.scrumalliance.org/profiles/61-joseph-pelrine">Joseph Pelrine</a></strong> in "Coaching self organizing teams" was about how to make people do things without telling them directly. It's all a matter of achieving the right behavior which for Joseph is a function of people vs environment. Self organizing teams have a emergent behavior and are in general conditioned to the "first fit pattern match". It means, they make decisions based in what they experienced. This kind of team needs diversity in terms of behavior in order to stimulate a evolving behavior as a team.  A team is not just a bunch of people working together, they need "heat" to move and work better. According to Joseph, it's near "chaos" when people do they best. To defend his idea, he states there are team "temperatures" to keep track:
+<ul>
+	<li> <strong>burning</strong>, when the team is in a organized chaos where everything is done fast, synchronized  and without errors. According to Joseph, although this is what every team manager wants this "temperature" only can be maintained for short periods because it can drive the team crazy.</li>
+	<li><strong>cooking</strong>, when the team  have everything fitting nicely and properly. Projections are made with realistic dates and everything flows to achieve a goal without help of the team manager.</li>
+	<li><strong>stagnating</strong>, when people in the team starts procrastinating the tasks because they don't realize the real value of it.</li>
+	<li><strong>congealing</strong>, the team is lazy. They know they could do something better, but they are too lazy to do it.</li>
+	<li><strong>solidifying</strong>, the team starts adding bureaucracy for everything just to procrastinate even more the tasks.</li>
+</ul>
+One important lesson from Joseph was if you want to change a team, you'll need to stimulate the team's network by creating confidence among the members of the team. How can you do that ? It's like flirting with somebody , first it requires a real context to apply, it means, something to talk about, then you'll need a good environment, it means the place where it will evolve the stimulation.
