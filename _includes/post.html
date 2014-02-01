@@ -1,11 +1,8 @@
 <div class="content" id="home">
-  <div id="sidebar-button">
-    <img src="/images/sidebar-button.png">
-  </div>
   <div id="post-info">
     {% if page.cover %}
       <div id="cover-photo-container">
-          <img id="cover-photo" src="/images/{{ page.cover }}">
+          <img id="cover-photo" src="{{ page.cover }}" height="550px">
       </div>
     {% endif %}
     <div id="info-container">
@@ -15,7 +12,8 @@
   </div>
 
   <div class="post">
-    {{ content }}
+    {% markdown %}{{ content }}
+    {% endmarkdown %}
   </div>
   <div class="colophon">
     <p>

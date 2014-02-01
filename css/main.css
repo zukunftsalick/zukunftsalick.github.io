@@ -18,9 +18,9 @@ html, body {
 body {
   color: #333;
   background-color: #fafbfc;
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: 'Ubuntu', Arial, sans-serif;
   font-weight: 400;
-  font-size: 0.95em;
+  font-size: 0.85em;
   overflow: hidden;
 }
 
@@ -142,9 +142,12 @@ a:hover {
 }
 
 .post {
-  line-height: 24px;
+  line-height: 1.5;
   max-width: 725px;
   clear: both;
+  font-family: 'Josefin Slab';
+  letter-spacing: .01rem;
+  font-size: 1.8em;
 }
 
 .post h2 {
