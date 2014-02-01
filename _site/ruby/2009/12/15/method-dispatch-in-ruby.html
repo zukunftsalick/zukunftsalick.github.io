@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Flex - Method dispatch in Ruby</title>
+      <meta name="viewport" content="width=device-width">
+
+      <!-- syntax highlighting CSS -->
+      <link rel="stylesheet" href="/css/syntax.css">
+
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="/css/main.css">
+
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="/css/responsive.css">
+
+      <!-- Google Fonts -->
+      <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="site">
+      <div class="sidebar" id="sidebar">
+        <div class="header">
+          <h1 class="title"><a href="/"><img id="logo" src="/images/pedro_pimentel_logo.png"></a></h1>
+          <h3>Pedro Pimentel</h3>
+          <span class="tagline">Software Developer &amp; Instructor</span>
+        </div>
+        <div class="posts">
+          <ul class="posts-list">
+            
+              <li class="post-link">
+                <a class="post-title" href="/ruby/2009/12/15/method-dispatch-in-ruby.html">
+                  <span class="post-date">15 Dec 2009</span>
+                  Method dispatch in Ruby
+                </a>
+              </li>
+            
+              <li class="post-link">
+                <a class="post-title" href="/hints/business%20admin/2009/06/16/why-my-fing-awesome-web-app-doesn-t-move-forward.html">
+                  <span class="post-date">16 Jun 2009</span>
+                  Why my f***ing awesome web app doesn' t move forward ?
+                </a>
+              </li>
+            
+              <li class="post-link">
+                <a class="post-title" href="/hints/2009/06/14/a-recipe-for-lazy-programmers.html">
+                  <span class="post-date">14 Jun 2009</span>
+                  A recipe for Lazy Programmers
+                </a>
+              </li>
+            
+              <li class="post-link">
+                <a class="post-title" href="/rails/hints/2009/03/22/view-sql-queries-in-your-console.html">
+                  <span class="post-date">22 Mar 2009</span>
+                  View sql queries in your console
+                </a>
+              </li>
+            
+              <li class="post-link">
+                <a class="post-title" href="/personal/events/2009/03/20/qcon-london-2009.html">
+                  <span class="post-date">20 Mar 2009</span>
+                  Qcon London 2009
+                </a>
+              </li>
+            
+              <li class="post-link">
+                <a class="post-title" href="/personal/2008/11/04/theres-still-hope.html">
+                  <span class="post-date">04 Nov 2008</span>
+                  There`s still hope
+                </a>
+              </li>
+            
+              <li class="post-link">
+                <a class="post-title" href="/personal/2008/10/22/why-i-have-been-away.html">
+                  <span class="post-date">22 Oct 2008</span>
+                  Why I have been away
+                </a>
+              </li>
+            
+              <li class="post-link">
+                <a class="post-title" href="/talents/2008/10/07/david-pache.html">
+                  <span class="post-date">07 Oct 2008</span>
+                  David Pache
+                </a>
+              </li>
+            
+              <li class="post-link">
+                <a class="post-title" href="/rails/ruby/hints/2008/10/01/how_to_run_just_one_test_from_your_terminal.html">
+                  <span class="post-date">01 Oct 2008</span>
+                  How to Run Just one Test Method from your Terminal
+                </a>
+              </li>
+            
+              <li class="post-link">
+                <a class="post-title" href="/personal/rails/ruby/trends/2008/07/28/writing-optioned-software.html">
+                  <span class="post-date">28 Jul 2008</span>
+                  Writing Opinionated Software
+                </a>
+              </li>
+            
+              <li class="post-link">
+                <a class="post-title" href="/rails/ruby/2008/06/15/ultrasphinx-bug.html">
+                  <span class="post-date">15 Jun 2008</span>
+                  Ultrasphinx bug?
+                </a>
+              </li>
+            
+              <li class="post-link">
+                <a class="post-title" href="/personal/rails/ruby/hints/2008/06/09/rails-21-whats-new.html">
+                  <span class="post-date">09 Jun 2008</span>
+                  RELEASED - "Rails 2.1 - What`s new ?" Book
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+        <div class="footer">
+          <span id="footer-links">
+            <a href="http://linkedin.com/in/pedropimentel" class="footer-link" target="_blank">Linkedin</a> <span class="separator">&bull;</span>
+            <a href="https://twitter.com/zukunftsalick" class="footer-link" target="_blank">Twitter</a> <span class="separator">&bull;</span>
+            <a href="http://github.com/zukunftsalick" class="footer-link" target="_blank">GitHub</a>
+          </span>
+        </div>
+      </div>
+
+      <div id="sidebar-button">
+        <img src="/images/sidebar-button.png">
+      </div>
+
+      
+<div class="content" id="home">
+  <div id="post-info">
+    
+      <div id="cover-photo-container">
+          <img id="cover-photo" src="http://farm6.staticflickr.com/5489/11723537295_ba713114a7_b.jpg" height="550px">
+      </div>
+    
+    <div id="info-container">
+      <h1 id="title">Method dispatch in Ruby</h1>
+      <span id="date">15 Dec 2009</a>
+    </div>
+  </div>
+
+  <div class="post">
+    <p>Some days ago I was asked how the dispatcher works in ruby and I was caught in surprise I didn’t know how to explain the method dispatching in the language we love (Ruby). That question was kept still in my mind for a few days but while listening to some workmates discussing about singleton classes in ruby the answer came to my mind in a blink of eyes reminding me from a university class which I had a long time ago about how method dispatching works in dynamic languages like Ruby.</p>
+
+<p>So with that information in mind and some googling to confirm it I came out with a simple explanation of how the dispatching works in Ruby and decided it’s worth sharing you.</p>
+
+<p>Essentially for each method call in ruby, the language interpreter checks in the inheritance hierarchy of the classes of the receiver (in our case “<em>my_string</em>”) to determine which method should be executed.</p>
+
+<p>An example:</p>
+
+<pre code="ruby">
+  my_string = Hash.new # =&gt; {}
+  my_string.size  # =&gt; 0
+</pre>
+
+<p>The code above is pretty simple but what’s important is happening beneath of it. The language interpreter is assigning the variable <em>my_string</em> with an instance of the Hash class then it’s calling the method <em>size</em>.</p>
+
+<p>The Hash class is where our interpreter will start searching for the <em>size</em> method, if the interpreter doesn’t find the method in the Hash class, it’ll continue to search in the Hash parent class, which in our case (Ruby) is the topmost class . It can be the case the interpreter don’t find  the method <em>size</em>, so it’ll throw  <em>method missing</em> exception. In our example, the Hash class contains the â€œ<em>size</em>â€ method and successfully returns.</p>
+
+<p>If you want to know how MRI’s (Matz’s Ruby Interpreter) implements method dispatch, I recommend you to take a look in<a title="Patrick Farley" href="http://www.klankboomklang.com/2007/09/14/method-dispatch/" target="_blank"> this blog post by Patrick Farley</a>, where he explains the Ruby source code responsible for handling method dispatch.</p>
+
+<p>For even further information on this matter there is this huge and excelent <a title="Russ Olsen" href="http://www.jroller.com/rolsen/entry/ruby_spin_up_where_did" target="_blank">post from Russ Olsen</a>, author of the book Design Patterns in Ruby.</p>
+
+
+  </div>
+  <div class="colophon">
+    <p>
+      <span id="pub-date">Published on 15 Dec 2009</span> <span class="separator">&bull;</span>
+      <span id="social">Find me on <a href="https://twitter.com/zukunftsalick" target="_blank">Twitter</a>!</span>
+    </p>
+  </div>
+</div>
+
+
+
+    </div>
+    <script src="/scripts/responsive.js" type="text/javascript"></script>
+  </body>
+</html>
