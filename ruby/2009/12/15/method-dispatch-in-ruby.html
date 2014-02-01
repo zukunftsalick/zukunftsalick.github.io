@@ -160,7 +160,7 @@
 
 <p>The code above is pretty simple but what’s important is happening beneath of it. The language interpreter is assigning the variable <em>my_string</em> with an instance of the Hash class then it’s calling the method <em>size</em>.</p>
 
-<p>The Hash class is where our interpreter will start searching for the <em>size</em> method, if the interpreter doesn’t find the method in the Hash class, it’ll continue to search in the Hash parent class, which in our case (Ruby) is the topmost class . It can be the case the interpreter don’t find  the method <em>size</em>, so it’ll throw  <em>method missing</em> exception. In our example, the Hash class contains the â€œ<em>size</em>â€ method and successfully returns.</p>
+<p>The Hash class is where our interpreter will start searching for the <em>size</em> method, if the interpreter doesn’t find the method in the Hash class, it’ll continue to search in the Hash parent class, which in our case (Ruby) is the topmost class . It can be the case the interpreter don’t find  the method <em>size</em>, so it’ll throw  <em>method missing</em> exception. In our example, the Hash class contains the <em>size</em> method and successfully returns.</p>
 
 <p>If you want to know how MRI’s (Matz’s Ruby Interpreter) implements method dispatch, I recommend you to take a look in<a title="Patrick Farley" href="http://www.klankboomklang.com/2007/09/14/method-dispatch/" target="_blank"> this blog post by Patrick Farley</a>, where he explains the Ruby source code responsible for handling method dispatch.</p>
 
